@@ -1,9 +1,10 @@
 import React from 'react';
+import { Login } from './Components'
 
 function App() {
   return (
-    <div className="App">
-      <h1>test</h1>
+    <div>
+        <Login/>
     </div>
   );
 }
