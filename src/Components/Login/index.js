@@ -29,12 +29,17 @@ export default class Login extends Component {
     submit = async () => {
         let data = { error: false };
         try {
+            if(this.username == null || this.password == null) throw 'Something went wrong';
             const users = await firebase.firestore().collection('users')
                 .where('username', '==', this.username)
                 .where('password', '==', this.password)
                 .get();
             const mapped = users.docs.map(user => user.data());
+            /*
+            * Fail if multiple users found, shouldn't be possible
+            * */
             if(mapped.length > 1) throw 'Something went wrong';
+
             data.message = 'Logged in';
         } catch (e) {
             data.message = e;
