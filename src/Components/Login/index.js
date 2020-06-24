@@ -38,7 +38,7 @@ export default class Login extends Component {
             /*
             * Fail if multiple users found, shouldn't be possible
             * */
-            if(mapped.length > 1) throw 'Something went wrong';
+            if(mapped.length > 1 || mapped.length < 1) throw 'Something went wrong';
 
             data.message = 'Logged in';
         } catch (e) {
