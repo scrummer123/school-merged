@@ -1,0 +1,11 @@
+C:\Users\simon\source\repos\OV\OV\bin\Debug\netcoreapp3.1\OV.exe
+C:\Users\simon\source\repos\OV\OV\bin\Debug\netcoreapp3.1\OV.deps.json
+C:\Users\simon\source\repos\OV\OV\bin\Debug\netcoreapp3.1\OV.runtimeconfig.json
+C:\Users\simon\source\repos\OV\OV\bin\Debug\netcoreapp3.1\OV.runtimeconfig.dev.json
+C:\Users\simon\source\repos\OV\OV\bin\Debug\netcoreapp3.1\OV.dll
+C:\Users\simon\source\repos\OV\OV\bin\Debug\netcoreapp3.1\OV.pdb
+C:\Users\simon\source\repos\OV\OV\obj\Debug\netcoreapp3.1\OV.AssemblyInfoInputs.cache
+C:\Users\simon\source\repos\OV\OV\obj\Debug\netcoreapp3.1\OV.AssemblyInfo.cs
+C:\Users\simon\source\repos\OV\OV\obj\Debug\netcoreapp3.1\OV.dll
+C:\Users\simon\source\repos\OV\OV\obj\Debug\netcoreapp3.1\OV.pdb
+C:\Users\simon\source\repos\OV\OV\obj\Debug\netcoreapp3.1\OV.csprojAssemblyReference.cache

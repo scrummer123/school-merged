@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "app/classes/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/packages/routing/"
+        }
+    ],
+    "require": {
+        "simon/routing": "*"
+    },
+    "minimum-stability": "dev"
+}

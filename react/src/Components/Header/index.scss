@@ -1,0 +1,76 @@
+$mainGrey: rgb(200,200,200);
+
+#headerRoot{
+  border-bottom: 1px solid $mainGrey;
+
+  #toolbarContainer {
+    z-index: 5;
+
+    #title {
+      text-align: left;
+    }
+
+    #buttonContainer {
+      display: flex;
+      justify-content: center;
+
+      .toolbarButton {
+        border-radius: 0px;
+        padding: 20px 10px;
+        .buttonBox:after {
+          content:"";
+          position:absolute;
+          left:0;
+          right:0;
+          bottom: 30%;
+          margin:auto;
+          background:#000;
+          height:1px;
+          width:0%;
+          opacity:0%;
+          transition: ease all .15s;
+        }
+        &:hover {
+          background: white;
+          .buttonBox:after { width:50%; opacity: 100%; }
+        }
+      }
+    }
+    #lastItem {
+
+      #searchBar {
+        background: white;
+        margin: 10px 0 0 0;
+        position: absolute;
+        display: flex;
+
+        .MuiInput-root {
+          display: block;
+          flex-grow: 1;
+          padding: 10px;
+          margin: 10px 0px 0px 0px;
+          border: 0;
+        }
+
+        #searchResult {
+          width: calc(100%+ 20px);
+          transition: 1s ease all;
+
+          :hover {
+            background: rgb(230,230,230);
+          }
+          div {
+            min-height: calc(250px / 4);
+
+            .title {
+              padding: 3px 0 0 10px;
+            }
+            .subTitle {
+              padding: 0 0 10px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

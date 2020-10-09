@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Game: <%= game.name %></h1>
+    </div>
+    <p>Jan aanvallen met virus 3 (hij is imuun)</p>
+    <button id="startGameWithImmunity">Val Jan aan</button> <br>
+    <p>Jan aanvallen met virus 1 (hij is niet imuun)</p>
+    <button id="startGame">Val Jan aan</button>
+    <br> <br>
+    <button id="endGame">Finish game</button>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        socket.on("msg", msg => {
+            console.log(msg);
+        });
+        document.getElementById("startGameWithImmunity").onclick = () => {
+            socket.emit("killPlayer", {virus: 3, player: 1});
+        }
+        document.getElementById("startGame").onclick = () => {
+            socket.emit("killPlayer", {virus: 1, player: 1});
+        }
+        document.getElementById("endGame").onclick = () => {
+            socket.emit("endGame", <%= game.id %>);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\simon\RiderProjects\Moenen\Moenen\bin\Debug\netcoreapp3.1\Moenen.exe
+C:\Users\simon\RiderProjects\Moenen\Moenen\bin\Debug\netcoreapp3.1\Moenen.deps.json
+C:\Users\simon\RiderProjects\Moenen\Moenen\bin\Debug\netcoreapp3.1\Moenen.runtimeconfig.json
+C:\Users\simon\RiderProjects\Moenen\Moenen\bin\Debug\netcoreapp3.1\Moenen.runtimeconfig.dev.json
+C:\Users\simon\RiderProjects\Moenen\Moenen\bin\Debug\netcoreapp3.1\Moenen.dll
+C:\Users\simon\RiderProjects\Moenen\Moenen\bin\Debug\netcoreapp3.1\Moenen.pdb
+C:\Users\simon\RiderProjects\Moenen\Moenen\obj\Debug\netcoreapp3.1\Moenen.csprojAssemblyReference.cache
+C:\Users\simon\RiderProjects\Moenen\Moenen\obj\Debug\netcoreapp3.1\Moenen.AssemblyInfoInputs.cache
+C:\Users\simon\RiderProjects\Moenen\Moenen\obj\Debug\netcoreapp3.1\Moenen.AssemblyInfo.cs
+C:\Users\simon\RiderProjects\Moenen\Moenen\obj\Debug\netcoreapp3.1\Moenen.dll
+C:\Users\simon\RiderProjects\Moenen\Moenen\obj\Debug\netcoreapp3.1\Moenen.pdb
